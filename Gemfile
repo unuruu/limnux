@@ -22,8 +22,17 @@ end
 
 gem 'jquery-rails'
 
+# Gems used in test and development environments
 group :test, :development do
   gem 'rspec-rails', '>= 2.9.0'
+end
+
+# Gems used only in test environment
+group :test do
+  gem 'cucumber-rails', '>= 1.3.0'
+  gem 'database_cleaner', '>= 0.7.2'
+  gem 'capybara', '>= 1.1.2'
+  gem 'factory_girl_rails', '>= 3.1.0'
 end
 
 # To use ActiveModel has_secure_password
