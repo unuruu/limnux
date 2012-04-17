@@ -34,3 +34,6 @@ Session.vim
 
 # Ignore local database.yml file
 /config/database.yml
+
+#Ignore IDE config
+.idea
