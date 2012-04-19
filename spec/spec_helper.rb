@@ -1,3 +1,11 @@
+# encoding: utf-8
+
+# SimpleCov-г дуудаж ажиллуулна. SimpleCov нь чиний бичсэн кодын хэдэн
+# хувьд нь тест бичсэнийг харуулдаг тайлан үүсгэдэг. Уг тайлан нь
+# coverage хавтсан дотор байгаа.
+require 'simplecov'
+SimpleCov.start 'rails'
+
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)

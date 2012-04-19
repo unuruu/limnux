@@ -33,6 +33,7 @@ group :test do
   gem 'database_cleaner', '>= 0.7.2'
   gem 'capybara', '>= 1.1.2'
   gem 'factory_girl_rails', '>= 3.1.0'
+  gem 'simplecov', '>= 0.6.1', require: false
 end
 
 # To use ActiveModel has_secure_password
