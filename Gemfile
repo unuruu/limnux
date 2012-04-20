@@ -26,6 +26,7 @@ gem 'jquery-rails'
 group :test, :development do
   gem 'rspec-rails', '>= 2.9.0'
   gem 'railroady', '>= 1.0.7'
+  gem 'flog'
 end
 
 # Gems used only in test environment
