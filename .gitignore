@@ -41,5 +41,8 @@ spec/reports/*
 # Cucumber report folder
 features/reports/*
 
+# Ignore RailRoad diagrams
+/doc/*.svg
+
 #Ignore IDE config
 .idea

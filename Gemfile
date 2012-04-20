@@ -25,6 +25,7 @@ gem 'jquery-rails'
 # Gems used in test and development environments
 group :test, :development do
   gem 'rspec-rails', '>= 2.9.0'
+  gem 'railroady', '>= 1.0.7'
 end
 
 # Gems used only in test environment

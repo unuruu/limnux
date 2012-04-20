@@ -97,6 +97,7 @@ GEM
       rack
     rack-test (0.6.1)
       rack (>= 1.0)
+    railroady (1.0.7)
     rails (3.2.3)
       actionmailer (= 3.2.3)
       actionpack (= 3.2.3)
@@ -173,6 +174,7 @@ DEPENDENCIES
   factory_girl_rails (>= 3.1.0)
   jquery-rails
   pg
+  railroady (>= 1.0.7)
   rails (= 3.2.3)
   rspec-rails (>= 2.9.0)
   sass-rails (~> 3.2.3)
