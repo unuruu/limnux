@@ -34,6 +34,7 @@ group :test do
   gem 'database_cleaner', '>= 0.7.2'
   gem 'capybara', '>= 1.1.2'
   gem 'simplecov', '>= 0.6.1', require: false
+  gem 'ci_reporter', '>= 1.7.0'
 end
 
 # To use ActiveModel has_secure_password

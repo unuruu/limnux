@@ -35,5 +35,11 @@ Session.vim
 # Ignore local database.yml file
 /config/database.yml
 
+# Ignore report folders
+# RSpec report folder
+spec/reports/*
+# Cucumber report folder
+features/reports/*
+
 #Ignore IDE config
 .idea
